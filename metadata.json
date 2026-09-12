@@ -1,0 +1,6 @@
+{
+  "name": "爆裂サッカーボウリング",
+  "description": "小学生が「いっけーーーーい！」と叫びながら超絶キックでピンを吹き飛ばす痛快サッカーボウリングゲーム！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

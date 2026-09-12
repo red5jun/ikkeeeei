@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-comic: 'Dela Gothic One', sans-serif;
+  --font-pop: 'Mochiy Pop One', cursive;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.95));
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 1s ease-in-out infinite;
+}
+
+/* Manga speedline background pattern */
+.speedlines-bg {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 255, 255, 0.08) 0deg 5deg,
+    transparent 5deg 10deg
+  );
+}
